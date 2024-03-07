@@ -5,7 +5,7 @@ import { FaRocket } from "react-icons/fa6";
 const Cards = () =>{
     return(
         <div className="mt-5 max-w-[1640px] p-4 mx-auto">
-            <h1 className="font-semibold text-xl sm:text-2xl md:text-3xl">Jak dostać rabat:</h1>
+            <h1 className="font-semibold text-xl sm:text-2xl md:text-3xl">How to get a discount:</h1>
             <div className="grid md:grid-cols-3 mt-4 w-full gap-10">
                 <div className="border rounded-md border-black-100 bg-blue-200 border-slate-300 shadow-lg shadow-blue-200">
                     <div className="flex p-4">
