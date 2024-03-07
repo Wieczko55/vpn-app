@@ -17,8 +17,8 @@ const Navbar = () => {
                 <p className="hidden lg:block">Blog</p>
                 <p className="hidden lg:block">For companies</p>
            </div>
-           <div className="flex items-center *:mx-2 lg:*:m-3 md:*:mx-3 ">
-                <button className="border border-blue-500 rounded-xl p-2 hover:bg-blue-500 hover:text-white hover:shadow-lg hover:shadow-blue-500 ">Download</button>
+           <div className="flex items-center *:mx-1.5 lg:*:m-3 md:*:mx-3 ">
+                <button className="border border-blue-500 rounded-xl p-1 hover:bg-blue-500 hover:text-white hover:shadow-lg hover:shadow-blue-500 ">Download</button>
                 <p className="hover:text-blue-500">Help</p>
                 <p className="hover:text-blue-500">Log in</p>
                 <HiOutlineMenu  size={30}/>

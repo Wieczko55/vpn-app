@@ -9,28 +9,28 @@ const Cards = () =>{
             <div className="grid md:grid-cols-3 mt-4 w-full gap-10">
                 <div className="border rounded-md border-black-100 bg-blue-200 border-slate-300 shadow-lg shadow-blue-200">
                     <div className="flex p-4">
-                    <FaCreditCard size={20} className="mt-1" /> <h1 className="font-semibold ml-2 text-xl"> Dokonaj zakupu</h1>
+                    <FaCreditCard size={20} className="mt-1" /> <h1 className="font-semibold ml-2 text-xl"> Make a purchase</h1>
                     </div>
                     <div className="px-4 pb-4">
-                        <p>Wybierz jeden z naszych dwuletnich pakietów. W zależności od zakupionego pakietu otrzymasz 3-miesięczny kupon VPN na NordVPN Standard, Plus lub Complete.</p>
+                        <p>Choose one of our two-year packages. Depending on the package you purchase, you will receive a 3-month VPN coupon for NordVPN Standard, Plus, or Complete.</p>
                     </div>
                 </div>
                 <div className="border rounded-md border-black-100 bg-blue-200 border-slate-300 shadow-lg shadow-blue-200">
                     <div className="flex p-4">
-                        <FaGift  size={20} className="mt-1" /> <h1 className="font-semibold ml-2 text-xl"> Odbierz</h1>
+                        <FaGift  size={20} className="mt-1" /> <h1 className="font-semibold ml-2 text-xl"> Receive</h1>
                     </div>
                     <div className="px-4 pb-4">
                         <p>
-                            Otrzymasz od nas kupon na maila w ciągu 24 godzin od zakupu. 
+                        You will receive a voucher from us by email within 24 hours of purchase. 
                         </p>
                     </div>
                 </div>
                 <div className="border rounded-md border-slate-300 bg-blue-200 flex  flex-col flex-wrap shadow-lg shadow-blue-200">
                     <div className="flex p-4">
-                        <FaSmileWink size={20} className="mt-1" /> <h1 className="font-semibold ml-2 text-xl"> Zrealizuj kod</h1>
+                        <FaSmileWink size={20} className="mt-1" /> <h1 className="font-semibold ml-2 text-xl"> Redeem code</h1>
                     </div>
                     <div className="px-4 pb-4">
-                        <p>Kupon może zostać zrealizowany na <a className="underline text-blue-900" href="https://my.nordaccount.com/activate/">Click here</a>  do 20 czerwca 2024r.</p>
+                        <p>The voucher can be redeemed on <a className="underline text-blue-900" href="/">Click here</a> until 20 June 2024</p>
                     </div>
                 </div>
             </div>
