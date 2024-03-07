@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Vpn_app/static/css/main.8680a098.css",
-    "main.js": "/Vpn_app/static/js/main.0f9b464e.js",
-    "index.html": "/Vpn_app/index.html",
-    "main.8680a098.css.map": "/Vpn_app/static/css/main.8680a098.css.map",
-    "main.0f9b464e.js.map": "/Vpn_app/static/js/main.0f9b464e.js.map"
+    "main.css": "/vpn-app/static/css/main.8680a098.css",
+    "main.js": "/vpn-app/static/js/main.0f9b464e.js",
+    "index.html": "/vpn-app/index.html",
+    "main.8680a098.css.map": "/vpn-app/static/css/main.8680a098.css.map",
+    "main.0f9b464e.js.map": "/vpn-app/static/js/main.0f9b464e.js.map"
   },
   "entrypoints": [
     "static/css/main.8680a098.css",
