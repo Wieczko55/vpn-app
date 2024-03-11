@@ -11,7 +11,7 @@ import './index.css';
 
 function App() {
   return (
-    <div className="App bg-blue-50">
+    <div className="App bg-blue-50 overflow-hidden">
       <Navbar />
       <Hero />
       <Cards />

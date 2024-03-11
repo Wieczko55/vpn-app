@@ -14,7 +14,7 @@ import { FaDownload } from "react-icons/fa6";
 const Navbar = () => {
     const [nav, setNav] = useState(true);
     return(
-        <div className="flex justify-between max-w-[1640px] p-3.5 mx-auto border-b border-slate-300 ">
+        <div className="flex justify-between max-w-[1640px] p-3.5 mx-auto border-b border-slate-300 overflow-hidden">
            <div className="flex items-center">
             <SiNordvpn  size={40} className="text-blue-500 mr-2"/>
             <h1 className="text-indigo-950 font-bold  md:text-3xl sm:text-2xl text-lg bg-blue-500 rounded-full py-1 pl-1">Key<span className="px-0.5 py-1 lg:py-0.5 lg:px-0.2 text-blue-500 rounded-full bg-slate-300">VPN</span></h1>
@@ -27,11 +27,11 @@ const Navbar = () => {
                 <p className="hidden lg:block">Blog</p>
                 <p className="hidden lg:block">For companies</p>
            </div>
-           <div className="flex items-center sm:*:mx-1.3 lg:*:m-3 md:*:mx-3">
+           <div className="flex items-center  sm:ml-0 sm:*:mx-1.3 lg:*:m-3 md:*:mx-3">
                 <button className="border border-blue-500 rounded-xl p-1 hover:bg-blue-500 hover:text-white hover:shadow-lg hover:shadow-blue-500 ">Download</button>
-                <p className="hover:text-blue-500 text-sm sm:text-md ml-1.5">Help</p>
-                <p className="hover:text-blue-500 text-sm sm:text-md ml-1.5">Log in</p>
-                <HiOutlineMenu onClick={() => setNav(!nav)} size={30} className="hover:cursor-pointer hover:skew-x-5 mr-2 ml-1"/>
+                <p className="hover:text-blue-500 text-sm sm:text-md ml-2.5">Log in</p>
+                <p className="sm:block hidden hover:text-blue-500 text-sm sm:text-md ml-1.5">Help</p>
+                <HiOutlineMenu onClick={() => setNav(!nav)} size={30} className="hover:cursor-pointer hover:skew-x-5 mr-2 ml-2.5"/>
            </div>
            {!nav ? <div onClick={()=> setNav(!nav)} className="bg-black/80 fixed w-full h-screen z-10 top-0 left-0 duration-900"></div> : ''}
                 <div className={' overflow-y-auto fixed top-0 left-0 w-[300px] h-screen bg-white z-10 duration-300'} style={{left: nav? '-9999px' : ''}}>
