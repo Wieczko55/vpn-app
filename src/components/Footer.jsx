@@ -57,7 +57,7 @@ const Footer = () =>{
                     <FaTiktok size={40}/>
                 </div>
             </div>
-            <div className='md:hidden mt-5 lg:col-span-2 flex justify-between md:px-12 px-0 md:text-md flex-col md:flex-row '>
+            <div className='md:hidden mt-5 lg:col-span-2 flex justify-between md:px-12 px-0 md:text-md flex-col md:flex-row'>
                 <div className=' md:border-none pt-2 border-t border-b w-full  duration-500' style={{height: roll? "60px" : "220px"}}>
                     <h6 className='text-lg font-semibold' onClick={stchange}>Function</h6>
                     {roll?<IoIosArrowDown className='ml-6'/> :  <MdKeyboardArrowUp size={20} className='ml-7'/>}
@@ -103,37 +103,37 @@ const Footer = () =>{
                 <div className='cursor-pointer  md:border-none pt-2 border-t border-b w-full  duration-500'>
                     <h6 className='text-lg font-semibold'>Function</h6>
                     <ul className='flex flex-col flex-wrap mt-1'>
-                        <li className='py-2'>Ad Blocker</li>
-                        <li className='py-2'>free VPN</li>
-                        <li className='py-2'>Pro VPN</li>
-                        <li className='py-2'>cleaning tools</li>
+                        <li className='py-2 hover:text-blue-500'>Ad Blocker</li>
+                        <li className='py-2 hover:text-blue-500'>free VPN</li>
+                        <li className='py-2 hover:text-blue-500'>Pro VPN</li>
+                        <li className='py-2 hover:text-blue-500'>cleaning tools</li>
                     </ul>
                 </div>
                 <div className='cursor-pointer pt-2 border-t border-b w-full md:border-none'>
                     <h6 className='text-lg font-semibold'>Services</h6>
                     <ul className='flex flex-col flex-wrap mt-1'>
-                        <li className='py-2'>Notifications</li>
-                        <li className='py-2'>Gaming & Ping</li>
-                        <li className='py-2'>Products</li>
-                        <li className='py-2'>Speed test</li>
+                        <li className='py-2 hover:text-blue-500'>Notifications</li>
+                        <li className='py-2 hover:text-blue-500'>Gaming & Ping</li>
+                        <li className='py-2 hover:text-blue-500'>Products</li>
+                        <li className='py-2 hover:text-blue-500'>Speed test</li>
                     </ul>
                 </div>
                 <div className='cursor-pointer md:border-none pt-2 border-t border-b w-full'>
                     <h6 className='text-lg font-semibold'>Support</h6>
                     <ul className='flex flex-col flex-wrap md:visible mt-1  '>
-                        <li className='py-2'>help & support</li>
-                        <li className='py-2'>Our blog</li>
-                        <li className='py-2'>FAQ</li>
-                        <li className='py-2'>Our forum</li>
+                        <li className='py-2 hover:text-blue-500'>help & support</li>
+                        <li className='py-2 hover:text-blue-500'>Our blog</li>
+                        <li className='py-2 hover:text-blue-500'>FAQ</li>
+                        <li className='py-2 hover:text-blue-500'>Our forum</li>
                     </ul>
                 </div>
                 <div className='cursor-pointer md:border-none pt-2 border-t border-b w-full'>
                     <h6 className='text-lg font-semibold'>Company</h6>          
-                    <ul className='flex flex-col flex-wrap md:visible mt-1  '>
-                        <li className='py-2'>About KeyVPN</li>
-                        <li className='py-2'>Work</li>
-                        <li className='py-2'>Inwestors</li>
-                        <li className='py-2'>Contact</li>
+                    <ul className='flex flex-col flex-wrap md:visible mt-1'>
+                        <li className='py-2 hover:text-blue-500'>About KeyVPN</li>
+                        <li className='py-2 hover:text-blue-500'>Work</li>
+                        <li className='py-2 hover:text-blue-500'>Inwestors</li>
+                        <li className='py-2 hover:text-blue-500'>Contact</li>
                     </ul>
                 </div>
             </div>

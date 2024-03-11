@@ -3,8 +3,8 @@ const Newstletter = () =>{
         <div className="max-w-[1610px] mx-auto px-2 py-8 bg-blue-200 mt-4 rounded-2xl">
             <div className="w-full mx-auto  grid lg:grid-cols-4 lg:mt-4">
                 <div className="lg:col-span-2 pr-4 pl-4 lg:mt-3 flex flex-col items-center md:items-start">
-                    <h1 className="text-xl sm:text-2xl md:text-3xl font-semibold">Want to learn some tips & tricks?</h1>
-                    <p className="text-md  mt-1">Sign up to ours newstletter and stay up to date.</p>
+                    <h1 className="text-xl sm:text-2xl md:text-3xl font-semibold text-center">Want to learn some tips & tricks?</h1>
+                    <p className="text-md  mt-1 text-center">Sign up to ours newstletter and stay up to date.</p>
                 </div>
                 <div className="my-4 lg:col-span-2 sm:ml-4">
                     <div className="sm:px-12  px-8 md:px-0 flex flex-col md:flex-row md:items-center md:justify-between w-full items-center">
