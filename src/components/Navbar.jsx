@@ -27,13 +27,13 @@ const Navbar = () => {
                 <p className="hidden lg:block">Blog</p>
                 <p className="hidden lg:block">For companies</p>
            </div>
-           <div className="flex items-center sm*:mx-1.3 lg:*:m-3 md:*:mx-3 justify-between">
+           <div className="flex items-center sm:*:mx-1.3 lg:*:m-3 md:*:mx-3">
                 <button className="border border-blue-500 rounded-xl p-1 hover:bg-blue-500 hover:text-white hover:shadow-lg hover:shadow-blue-500 ">Download</button>
                 <p className="hover:text-blue-500 text-sm sm:text-md ml-1.5">Help</p>
                 <p className="hover:text-blue-500 text-sm sm:text-md ml-1.5">Log in</p>
-                <HiOutlineMenu onClick={() => setNav(!nav)} size={30} className="hover:cursor-pointer hover:skew-x-5"/>
+                <HiOutlineMenu onClick={() => setNav(!nav)} size={30} className="hover:cursor-pointer hover:skew-x-5 mr-2 ml-1"/>
            </div>
-           {!nav ? <div className="bg-black/80 fixed w-full h-screen z-10 top-0 left-0 duration-900"></div> : ''}
+           {!nav ? <div onClick={()=> setNav(!nav)} className="bg-black/80 fixed w-full h-screen z-10 top-0 left-0 duration-900"></div> : ''}
                 <div className={' overflow-y-auto fixed top-0 left-0 w-[300px] h-screen bg-white z-10 duration-300'} style={{left: nav? '-9999px' : ''}}>
                     <AiOutlineClose  onClick={()=> setNav(!nav)} size={30}  className="hover:cursor-pointer absolute right-4 top-4 cursor-pointer"/>
                     <h1 className="text-indigo-950 font-bold  md:text-3xl sm:text-2xl text-xl bg-blue-500 rounded-full py-1 pl-1 ml-2 md:w-[122px] w-[83px]  mt-2">Key<span className="px-0.5 py-1 lg:py-0.5  text-blue-500 rounded-full bg-slate-300">VPN</span></h1>
