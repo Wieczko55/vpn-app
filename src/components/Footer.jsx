@@ -10,6 +10,7 @@ import { FaTiktok } from "react-icons/fa6";
 import { useState } from 'react';
 import { IoIosArrowDown } from "react-icons/io";
 import { MdKeyboardArrowUp } from "react-icons/md";
+import key1 from '../assets/key.jpg';
 
 const Footer = () =>{
     const stchange = () =>{
@@ -39,6 +40,7 @@ const Footer = () =>{
         setRoll3(!roll3);
     }
 
+
     const [roll, setRoll] = useState(true);
     const [roll1, setRoll1] = useState(true);
     const [roll2, setRoll2] = useState(true);
@@ -46,7 +48,7 @@ const Footer = () =>{
     return(
         <div className='border-t border-slate-400 max-w-[1640px] mx-auto p-4 grid lg:grid-cols-3 gap-8 mt-14 '>
             <div className='md:px-10 lg:px-0'>
-                <h1 className="w-[84px] md:w-[121px] sm:w-[99px] text-indigo-950 font-bold  md:text-3xl sm:text-2xl text-xl bg-blue-500 rounded-full py-1 pl-1">Key<span className="p-0.5 text-blue-500 rounded-full bg-slate-300">VPN</span></h1>
+            <img src={key1} alt="/" className="w-[110px] h-[45px]"/>
                 <p className='py-4'>Thank you for your visit, we hope you'll like  our product remember to be well protected on the internet. Innovate and inspire your friends uncover the unexpected, support KeyVPN.</p>
                 <div className='md:mt-4 flex md:mx-auto md:w-[85%] lg:my-6 lg:mx-0 justify-between text-fuchsia-800'>
                     <FaDribbbleSquare size={40}/>
@@ -100,8 +102,8 @@ const Footer = () =>{
                 </div>
             </div>
             <div className='hidden md:flex mt-5 lg:col-span-2 flex justify-between md:px-12 px-0 md:text-md flex-col md:flex-row'>
-                <div className='cursor-pointer  md:border-none pt-2 border-t border-b w-full  duration-500'>
-                    <h6 className='text-lg font-semibold'>Function</h6>
+                <div className='group/items1  cursor-pointer  md:border-none pt-2 border-t border-b w-full  duration-500'>
+                    <h6 className='group-hover/items1:text-fuchsia-800 text-lg font-semibold'>Function</h6>
                     <ul className='flex flex-col flex-wrap mt-1'>
                         <li className='py-2 hover:text-blue-500'>Ad Blocker</li>
                         <li className='py-2 hover:text-blue-500'>free VPN</li>
@@ -109,8 +111,8 @@ const Footer = () =>{
                         <li className='py-2 hover:text-blue-500'>cleaning tools</li>
                     </ul>
                 </div>
-                <div className='cursor-pointer pt-2 border-t border-b w-full md:border-none'>
-                    <h6 className='text-lg font-semibold'>Services</h6>
+                <div className='group/items2 cursor-pointer pt-2 border-t border-b w-full md:border-none'>
+                    <h6 className='group-hover/items2:text-fuchsia-800 text-lg font-semibold'>Services</h6>
                     <ul className='flex flex-col flex-wrap mt-1'>
                         <li className='py-2 hover:text-blue-500'>Notifications</li>
                         <li className='py-2 hover:text-blue-500'>Gaming & Ping</li>
@@ -118,8 +120,8 @@ const Footer = () =>{
                         <li className='py-2 hover:text-blue-500'>Speed test</li>
                     </ul>
                 </div>
-                <div className='cursor-pointer md:border-none pt-2 border-t border-b w-full'>
-                    <h6 className='text-lg font-semibold'>Support</h6>
+                <div className='group/item cursor-pointer md:border-none pt-2 border-t border-b w-full'>
+                    <h6 className='group-hover/item:text-fuchsia-800 text-lg font-semibold'>Support</h6>
                     <ul className='flex flex-col flex-wrap md:visible mt-1  '>
                         <li className='py-2 hover:text-blue-500'>help & support</li>
                         <li className='py-2 hover:text-blue-500'>Our blog</li>
@@ -127,8 +129,8 @@ const Footer = () =>{
                         <li className='py-2 hover:text-blue-500'>Our forum</li>
                     </ul>
                 </div>
-                <div className='cursor-pointer md:border-none pt-2 border-t border-b w-full'>
-                    <h6 className='text-lg font-semibold'>Company</h6>          
+                <div className='group/items cursor-pointer md:border-none pt-2 border-t border-b w-full'>
+                    <h6 className='group-hover/items:text-fuchsia-800 text-lg font-semibold'>Company</h6>          
                     <ul className='flex flex-col flex-wrap md:visible mt-1'>
                         <li className='py-2 hover:text-blue-500'>About KeyVPN</li>
                         <li className='py-2 hover:text-blue-500'>Work</li>

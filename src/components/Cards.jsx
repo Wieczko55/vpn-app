@@ -25,7 +25,7 @@ const Cards = () =>{
                         </p>
                     </div>
                 </div>
-                <div className="border rounded-md border-slate-300 bg-blue-200 flex  flex-col flex-wrap shadow-lg shadow-blue-200">
+                <div className="border rounded-md border-slate-300 bg-blue-200 flex  flex-col flex-wrap shadow-lg shadow-blue-200 ">
                     <div className="flex p-4">
                         <FaSmileWink size={20} className="mt-1" /> <h1 className="font-semibold ml-2 text-xl"> Redeem code</h1>
                     </div>

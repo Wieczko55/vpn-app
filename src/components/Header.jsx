@@ -14,7 +14,7 @@ const Header = () =>{
                 />
             </h1> 
             <p className='text-center mt-5 font-semibold text-gray-600 text-lg sm:text-2xl md:text-3xl lg:text-4xl'>avoid the threats waiting for you on the Internet, be less noticeable.</p>
-            <button className='mt-5 border border-blue-400 rounded-xl p-3 font-semibold text-xl sm:text-2xl md:text-3xl bg-blue-400 shadow-lg shadow-blue-700'>Download</button>
+            <button className='mt-5 border border-blue-400 rounded-xl p-3 font-semibold text-xl sm:text-2xl md:text-3xl bg-blue-400 shadow-lg shadow-blue-700 hover:scale-110 transition-all duration-300 hover:shadow-blue-900 hover:bg-blue-500 hover:text-white'>Download</button>
              </div>
         </div>
     )
